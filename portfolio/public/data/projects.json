@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Password Strength Checker",
+    "description": "Checks password strength based on length and complexity.",
+    "image": "/images/project1.jpg",
+    "techStack": ["React", "CSS", "JavaScript"],
+    "github": "https://github.com/",
+    "demo": "https://demo.com"
+  },
+  {
+    "title": "Movie Trivia battle Website",
+    "description": "User authentication and theme management using Redux Toolkit.",
+    "image": "/images/project2.jpg",
+    "techStack": ["React", "Redux", "CSS"],
+    "github": "https://github.com/",
+    "demo": "https://demo.com"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "Modern creative portfolio inspired by editorial layouts.",
+    "image": "/images/project3.jpg",
+    "techStack": ["React", "CSS", "Vite"],
+    "github": "https://github.com/",
+    "demo": "https://demo.com"
+  }
+]

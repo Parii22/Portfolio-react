@@ -1,0 +1,169 @@
+.hero {
+  min-height: 100vh;
+
+  background: linear-gradient(
+    135deg,
+    var(--cream),
+    var(--beige)
+  );
+
+  display: flex;
+  align-items: center;
+
+  padding-top: 100px;
+}
+
+.hero-container {
+  width: 90%;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+
+  align-items: center;
+}
+
+.hero-left {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+}
+
+.tape {
+  position: absolute;
+
+  width: 120px;
+  height: 35px;
+
+  background: rgba(255,255,255,0.5);
+
+  backdrop-filter: blur(2px);
+
+  transform: rotate(-12deg);
+}
+
+.tape-1 {
+  top: -15px;
+  left: 80px;
+}
+
+.tape-2 {
+  bottom: -15px;
+  right: 80px;
+}
+
+.hero-right {
+  animation: slideIn 1s ease;
+}
+
+.tag {
+  background: var(--primary-red);
+
+  color: white;
+
+  padding: 8px 18px;
+
+  border-radius: 30px;
+
+  font-size: 0.9rem;
+}
+
+.hero-right h1 {
+  font-size: 5rem;
+
+  color: var(--primary-red);
+
+  line-height: 1;
+
+  margin-top: 20px;
+}
+
+.hero-right h2 {
+  margin-top: 20px;
+
+  font-size: 2rem;
+
+  color: var(--black);
+
+  font-weight: 500;
+}
+
+.hero-right p {
+  margin-top: 20px;
+
+  font-size: 1rem;
+
+  max-width: 500px;
+
+  line-height: 1.8;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+
+  display: flex;
+  gap: 20px;
+}
+
+.hero-buttons a {
+  padding: 14px 26px;
+
+  border-radius: 8px;
+
+  background: var(--primary-red);
+
+  color: white;
+
+  transition: 0.3s;
+}
+
+.hero-buttons a:hover {
+  transform: translateY(-5px);
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-right {
+    text-align: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-right h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-right h1 {
+    font-size: 3rem;
+  }
+
+  .hero-right h2 {
+    font-size: 1.5rem;
+  }
+
+  .film-strip {
+    width: 220px;
+  }
+}

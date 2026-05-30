@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Frontend Development",
+    "description": "Building responsive websites using HTML, CSS and JavaScript."
+  },
+  {
+    "title": "React Learning",
+    "description": "Creating reusable components and managing state."
+  },
+  {
+    "title": "Personal Projects",
+    "description": "Developing projects to strengthen frontend skills."
+  },
+  {
+    "title": "Open Source (Future)",
+    "description": "Planning to contribute to open-source projects."
+  }
+]

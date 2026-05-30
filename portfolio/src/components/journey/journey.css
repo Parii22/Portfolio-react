@@ -1,0 +1,46 @@
+.journey {
+  padding: 120px 0;
+  background: var(--cream);
+}
+
+.section-title {
+  text-align: center;
+  color: var(--primary-red);
+  margin-bottom: 60px;
+  font-size: 2.5rem;
+}
+
+.timeline {
+  display: flex;
+  gap: 25px;
+
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+
+.timeline-card {
+  min-width: 240px;
+
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 12px;
+
+  border-top: 6px solid var(--primary-red);
+
+  transition: .3s;
+}
+
+.timeline-card:hover {
+  transform: translateY(-10px);
+}
+
+.timeline-card span {
+  color: var(--primary-red);
+  font-weight: 700;
+}
+
+.timeline-card h3 {
+  margin-top: 15px;
+}
