@@ -4,23 +4,20 @@
     "description": "Checks password strength based on length and complexity.",
     "image": "/images/project1.jpg",
     "techStack": ["React", "CSS", "JavaScript"],
-    "github": "https://github.com/",
-    "demo": "https://demo.com"
+    "github": "https://github.com/Parii22/Password-Strength-Meter1/"
   },
   {
     "title": "Movie Trivia battle Website",
-    "description": "User authentication and theme management using Redux Toolkit.",
+    "description": "A fun and interactive movie trivia platform where users can test their film knowledge and compete with others.",
     "image": "/images/project2.jpg",
-    "techStack": ["React", "Redux", "CSS"],
-    "github": "https://github.com/",
-    "demo": "https://demo.com"
+    "techStack": ["HTML", "CSS"],
+    "github": "https://github.com/Parii22/Movie-Trivia-Battle-Website/"
   },
   {
-    "title": "Portfolio Website",
-    "description": "Modern creative portfolio inspired by editorial layouts.",
+    "title": "Music Store Webpage",
+    "description": "A modern web platform for exploring and buying music.",
     "image": "/images/project3.jpg",
-    "techStack": ["React", "CSS", "Vite"],
-    "github": "https://github.com/",
-    "demo": "https://demo.com"
+    "techStack": ["HTML", "CSS"],
+    "github": "https://github.com/Parii22/Music-Store-Webpage/"
   }
 ]

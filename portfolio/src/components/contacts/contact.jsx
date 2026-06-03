@@ -26,7 +26,7 @@ function Contact() {
             <div className="contact-card">
               <h3>GitHub</h3>
               <a
-                href="https://https://github.com/Parii22/"
+                href="https://github.com/Parii22/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -37,7 +37,7 @@ function Contact() {
             <div className="contact-card">
               <h3>LinkedIn</h3>
               <a
-                href="https://https://github.com/Parii22/"
+                href="https://linkedin.com/in/parii-gothi/"
                 target="_blank"
                 rel="noreferrer"
               >

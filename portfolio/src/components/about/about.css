@@ -4,10 +4,10 @@
 }
 
 .about-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  gap: 60px;
 }
 
 .polaroid {
@@ -39,7 +39,7 @@
   background: white;
   padding: 40px;
   border-radius: 12px;
-
+  text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
@@ -55,10 +55,10 @@
 
 .skills-tags {
   margin-top: 20px;
-
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: center;
 }
 
 .skills-tags span {

@@ -46,14 +46,6 @@ function Projects() {
                   >
                     GitHub
                   </a>
-
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Live Demo
-                  </a>
                 </div>
 
               </div>
